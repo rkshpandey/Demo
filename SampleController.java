@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@Controller
 @RestController
 public class SampleController {
-	
+	//Get
 	@GetMapping("/sample")
 	//@ResponseBody
 	public String getSample() {
